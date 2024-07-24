@@ -29,7 +29,4 @@ form.addEventListener("submit", (evt) => {
 
     localStorage.removeItem("feedback-form-state");
     form.reset();
-    // console.log(localStorage.getItem("feedback-form-state"))
-    // localStorage.removeItem("feedback-form-state");
-    // form.reset();
   });
